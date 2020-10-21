@@ -1,3 +1,5 @@
+/* css для кнопки темной темы */
+
 input[type=checkbox] {
     visibility: hidden;
     height: 0;
