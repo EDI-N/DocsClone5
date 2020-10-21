@@ -33,7 +33,15 @@
         appId: "7c291f92-d5bd-4792-9f98-545495146fd4",
         });
     });
-    </script>
-{% endblock %} -->
+    </script>  -->
+{% endblock %}
 
-
+    <!-- Костыльный селектор языка -->
+{% block sidebartitle %}
+{{ super() }}
+<select id="LanguageDropdown" class="language-dropdown" onChange="window.location.href=this.value"><option value="https://wiki.edi-n.com/uk/latest/">Українська</option><option value="https://wiki.edi-n.com/ru/latest/">Русский</option><option value="https://wiki.edi-n.com/en/latest/">English</option></select>
+<span class="fa fa-element">
+<input class="container_toggle" type="checkbox" id="switch" name="mode">
+<label for="switch"></label>
+</span>
+{% endblock %}
