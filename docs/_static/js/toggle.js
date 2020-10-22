@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             element.setAttribute("rel", "stylesheet");
             element.setAttribute("type", "text/css");
             element.setAttribute("href", "_static/css/toggle.css");
-            document.getElementsByTagName("head")[0].appendChild(element);
+            document.getElementsByTagName("head")[0].appendChild(eleme nt);
             return;
         }
         if (nightsheet !== undefined) {
