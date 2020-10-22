@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var mode = (isDay ? "Day" : "Night");
         localStorage.setItem("css-mode", mode);
 
-        var daysheet = $('link[href="_static/pygments.css"]')[0].sheet;
+        var daysheet = $('link[href="_static/pygments.css"]')[0];
         daysheet.disabled = !isDay;
 
         var nightsheet = $('link[href="_static/dark1.css"]')[0];
