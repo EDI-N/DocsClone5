@@ -186,9 +186,9 @@ html_favicon = "_static/edin.ico"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-html_css_files = ["toggle.css"]
+html_css_files = ["css/toggle.css"]
 
-html_js_files = ["toggle.js"]
+html_js_files = ["js/toggle.js"]
 
 
 
