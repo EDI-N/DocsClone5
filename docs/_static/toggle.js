@@ -1,3 +1,4 @@
+// js для кнопки темной темы
 document.addEventListener('DOMContentLoaded', function() {
 
     function toggleCssMode(isDay) {

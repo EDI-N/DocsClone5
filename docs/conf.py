@@ -188,7 +188,7 @@ html_static_path = ['_static']
 
 html_css_files = ["toggle.css"]
 
-html_js_files = ["DarkMode.js"]
+html_js_files = ["toggle.js"]
 
 
 
