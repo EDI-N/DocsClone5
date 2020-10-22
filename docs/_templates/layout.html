@@ -40,10 +40,12 @@
     {% block sidebartitle %}
         {{ super() }}
         {# Add rst-badge after rst-versions for small badge style. #}
-        <div class="wy-side-nav-search">
-        <span class="fa fa-element">
-        <input class="container_toggle" type="checkbox" id="switch" name="mode">
-        <label for="switch"></label>
-        </span>
+        <div>
+            <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
         </div>
     {% endblock %}
