@@ -430,8 +430,8 @@ epub_exclude_files = ['search.html']
 
 versionwarning_messages = {
     "latest": (
-        "К сожалению эта версия wiki более не поддерживается. "
-        'Актуальная документации находится по <a href="https://wiki.edin.ua/uk/latest/">ссылке</a>.'
+        "<strong>Внимание:</strong> к сожалению эта версия wiki более не поддерживается. "
+        'Актуальная документация находится по <a href="https://wiki.edin.ua/uk/latest/">ссылке</a>.'
     ),
 }
 
