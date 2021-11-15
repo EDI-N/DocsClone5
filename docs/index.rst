@@ -96,5 +96,6 @@ EDIN | Електронний документообіг для бізнесу
    test_table_view1
    test_table_view2
    test_table_view3
+   test_table_view4
 
 
