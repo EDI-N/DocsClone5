@@ -92,4 +92,5 @@ EDIN | Електронний документообіг для бізнесу
    :caption: ЗАКОНОДАВСТВО
 
    Zakon/Zakonodavcha_baza
+   test_table_view
 
