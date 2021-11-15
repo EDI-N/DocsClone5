@@ -93,4 +93,8 @@ EDIN | Електронний документообіг для бізнесу
 
    Zakon/Zakonodavcha_baza
    test_table_view
+   test_table_view1
+   test_table_view2
+   test_table_view3
+
 
