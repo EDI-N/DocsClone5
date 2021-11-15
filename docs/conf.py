@@ -33,8 +33,8 @@ import os
 extensions = [
     'sphinx.ext.autodoc',
     'sphinxcontrib.contentui',
+    'sphinxcontrib.plantuml',
     'notfound.extension',
-    'versionwarning.extension',
 ]
 
 # for 404 page
@@ -63,7 +63,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Docs'
-copyright = '2020, EDI-N'
+copyright = '2021, EDI-N'
 author = 'EDI-N'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -187,16 +187,10 @@ html_favicon = "_static/edin.ico"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-html_css_files = ["css/toggle.css"]
-
-html_js_files = ["js/toggle.js"]
-
-
-
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
 # directly to the root of the documentation.
-html_extra_path = ['_static']
+#html_extra_path = []
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
@@ -406,37 +400,3 @@ epub_exclude_files = ['search.html']
 
 # If false, no index is generated.
 #epub_use_index = True
-
-
-# -- sphinx-version-warning config ----------------------------------------------
-
-# stupid example how it can be set up
-#versionwarning_messages = {
-#    "latest": (
-#        "This document is for the development version. "
-#        'For the stable version documentation, see <a href="/en/stable/">here</a>.'
-#    ),
-#    "stable": (
-#        "<strong>Black Lives Matter.</strong> "
-#        'Support the <a href="https://eji.org/">Equal Justice Initiative</a> and '
-#        '<a href="https://colorofchange.org/">Color of Change</a>.'
-#    ),
-#    "2.x-line": (
-#        "marshmallow 2 is no longer supported as of 2020-08-18. "
-#        '<a href="https://marshmallow.readthedocs.io/en/latest/upgrading.html#upgrading-to-3-0">'
-#        "Update your code to use marshmallow 3</a>."
-#    ),
-#}
-
-versionwarning_messages = {
-    "latest": (
-        "<strong>Внимание:</strong> к сожалению эта версия wiki более не поддерживается. "
-        'Актуальная документация находится по <a href="https://wiki.edin.ua/uk/latest/">ссылке</a>.'
-    ),
-}
-
-# Show warning at top of page
-versionwarning_body_selector = "div.document"
-# versionwarning_banner_title = ""
-# For debugging locally
-# versionwarning_project_version = "stable"
