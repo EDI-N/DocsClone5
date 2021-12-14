@@ -3,6 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. |info| image:: Personal_Cabinet/pics_PCInstruction/PCInstruction_03.png
+
 EDIN | Електронний документообіг для бізнесу
 ===============================
 
@@ -35,14 +37,14 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: Е-СПЕЦИФІКАЦІЯ
+   :caption: |info| Е-СПЕЦИФІКАЦІЯ
 
    E_SPEC/EDIN_2_0/Instructions_2_0/E_SPEC_instructions_2_0_list
    E_SPEC/EDIN_2_0/API_2_0/E_SPEC_API_2_0_list
 
 .. toctree::
    :maxdepth: 2
-   :caption: EDIN-Distribution
+   :caption: |info|EDIN-Distribution
 
    Distribution/EDIN_2_0/Instructions_2_0/Distribution_instructions_2_0_list
    Distribution/EDIN_2_0/API_2_0/Distribution_API_2_0_list
@@ -50,13 +52,13 @@ EDIN | Електронний документообіг для бізнесу
 
 .. toctree::
    :maxdepth: 2
-   :caption: EDIN-Certificate
+   :caption: EDIN-Certificate|info|
 
    Certificate/EDIN/Certificate_list
 
 .. toctree::
    :maxdepth: 2
-   :caption: Tender
+   :caption: Tender |info|
 
    Tender_2_0/Tender_2_0_list
 
