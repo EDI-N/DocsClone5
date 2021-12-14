@@ -128,7 +128,12 @@ EDIN | Електронний документообіг для бізнесу
    :caption: ЗАКОНОДАВСТВО <https://wd-api.edin.ua/swagger-ui/#/>
 
    Zakon/Zakonodavcha_baza
-   
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   E_SPEC/EDIN_2_0/API_2_0/Methods/ListList
    
 .. toctree::
    :maxdepth: 2
