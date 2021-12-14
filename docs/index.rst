@@ -98,6 +98,31 @@ EDIN | Електронний документообіг для бізнесу
    test_table_view3
    test_table_view4
 
+
+1
+
+<span class="caption-text">Shkal</span>
+
+2
+
+.. raw:: html
+
+   <span class="caption-text">Shkal222</span>
+
+
+3
+
+.. raw:: html
+
+   <p><strong><span style="color: #ff9900;  font-size: 28px;">Мережа відправляє всі три документа з одним номером, тому для спрощення роботи з конкретною групою документів рекомендовано фільтрувати документи за номером та мережею за потреби:</span></strong></p>
+
+4
+
+.. raw:: html
+
+   <p><strong><span style="color: #ff9900;  font-size: 28px;">Мережа відправляє всі три <a href="https://html-online.com/editor/">real</a> з одним номером, тому для спрощення роботи з конкретною групою документів рекомендовано фільтрувати документи за номером та мережею за потреби:</span></strong></p>
+
+
 .. toctree::
    :maxdepth: 2
    :caption: ЗАКОНОДАВСТВО <https://wd-api.edin.ua/swagger-ui/#/>
