@@ -110,3 +110,19 @@ EDIN | Електронний документообіг для бізнесу
    :caption: `ЗАКОНОДАВСТВО <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__
 
    Zakon/Zakonodavcha_baza
+
+1
+
+<span class="caption-text">Shkal</span>
+
+2
+
+.. raw:: html
+
+   <span class="caption-text">Shkal222</span>
+
+
+
+
+
+
