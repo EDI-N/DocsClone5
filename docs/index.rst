@@ -98,4 +98,15 @@ EDIN | Електронний документообіг для бізнесу
    test_table_view3
    test_table_view4
 
+.. toctree::
+   :maxdepth: 2
+   :caption: ЗАКОНОДАВСТВО <https://wd-api.edin.ua/swagger-ui/#/>
 
+   Zakon/Zakonodavcha_baza
+   
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: `ЗАКОНОДАВСТВО <https://wiki.edin.ua/uk/latest/general_2_0/rabota_s_platformoj_EDIN_2.0.html#doc-search>`__
+
+   Zakon/Zakonodavcha_baza
