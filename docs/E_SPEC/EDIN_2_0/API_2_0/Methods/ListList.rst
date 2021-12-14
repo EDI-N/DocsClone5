@@ -9,7 +9,6 @@ SomeSome
 
 
 .. toctree::
-   :hidden:
    :glob:
 
    EveryBody/*
